@@ -1,0 +1,21 @@
+{
+  "name": "desafio1",
+  "version": "1.0.0",
+  "description": "Maratona FullCycle 2.0 - Desafio 1",
+  "repository": {},
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "build": "mkdir -p dist && cp -R node_modules src ./dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Daniel Jeremias",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
